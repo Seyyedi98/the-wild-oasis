@@ -12,7 +12,7 @@ export function useLogout() {
       // Remove data from query cahce for security
       queryClient.removeQueries();
 
-      // { replace: true }: erace the place that we were erlier. To fix back btn
+      // { replace: true }: Erase the place that we were erlier. To fix back btn
       navigate("/login", { replace: true });
     },
   });
