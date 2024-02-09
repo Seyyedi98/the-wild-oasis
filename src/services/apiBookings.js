@@ -33,7 +33,7 @@ export async function getBookings({ filter, sortBy, page }) {
 
   if (error) {
     console.error(error);
-    throw new Error("Bookings could not be loadeds");
+    throw new Error("Bookings could not be loaded");
   }
 
   return { data, count };
